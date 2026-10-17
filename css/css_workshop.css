@@ -1,0 +1,55 @@
+/* Styles taken from the Word document: page, fonts, sizes, alignment */
+
+body {
+  max-width: 17cm;
+  margin: 2cm auto;
+  font: 12pt "Times New Roman", "Liberation Serif", serif;
+}
+
+p,
+ul,
+pre {
+  margin: 0 0 12pt;
+}
+
+h1,
+h2,
+.subtitle {
+  font-family: Arial, "Liberation Sans", sans-serif;
+}
+
+h1 {
+  margin: 12pt 0 6pt;
+  font-size: 28pt;
+  text-align: center;
+}
+
+.subtitle {
+  margin: 3pt 0 6pt;
+  font-size: 18pt;
+  text-align: center;
+}
+
+h2 {
+  margin: 12pt 0 6pt;
+  font-size: 18pt;
+}
+
+h3 {
+  margin: 10pt 0 6pt;
+  font-size: 18pt;
+}
+
+pre {
+  font: italic 12pt "Times New Roman", "Liberation Serif", serif;
+  white-space: pre-wrap;
+}
+
+code {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
